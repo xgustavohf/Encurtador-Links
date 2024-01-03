@@ -1,5 +1,4 @@
 # Encurtador-Links
- Site responsável por encurtar links.
 
 O projeto **GHF.PRO - Encurtador de Links** é uma aplicação desenvolvida em **Django**, utilizando **HTML, CSS e JavaScript** para proporcionar uma solução eficiente na redução de URLs extensas. Com suporte ao banco de dados **PostgreSQL**, o sistema permite aos usuários simplificar seus links longos para facilitar compartilhamentos em plataformas como **WhatsApp, YouTube, TikTok e Instagram**.
 
