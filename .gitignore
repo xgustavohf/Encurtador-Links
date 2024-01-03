@@ -1,4 +1,4 @@
 env
-linkshortener/__init__.py
-linkshortener/__pycache__
-shortener/__pycache__
+linkshortener/__pycache__/
+shortener/__pycache__/
+shortener/migrations/__pycache__/
