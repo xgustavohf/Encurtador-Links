@@ -55,7 +55,7 @@ ROOT_URLCONF = 'linkshortener.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/home/gustavo/Documentos/Projetos/encurtador_link/linkshortener/shortener/templates/shortener'],
+        'DIRS': ['/linkshortener/shortener/templates/shortener'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
