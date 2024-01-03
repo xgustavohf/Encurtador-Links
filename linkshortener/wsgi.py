@@ -15,5 +15,5 @@ from whitenoise import WhiteNoise
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "linkshortener.settings")
 
 application = get_wsgi_application()
-application = WhiteNoise(application, root='/linkshortener/shortener/static/admin')
+application = WhiteNoise(application, root='/shortener/static/admin/')
 
