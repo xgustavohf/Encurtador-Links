@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 100px 0 50px 0;
+    overflow: hidden;
+}
+
+.container {
+    text-align: left;
+    margin-left: 10%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    z-index: 1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px;
+    left: 0;
+    z-index: 1;
+    font-size: 14px;
+}
+
+.url-input {
+    width: 100%;
+    max-width: 420px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        margin-left: 10%;
+        margin-top: 50px; 
+    }
+
+    .url-input {
+        width: 90%;
+        max-width: none;
+    }
+
+    .btn-encurtar {
+        margin-top: -10px; 
+    }
+}
+
+.logo {
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 10%;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        margin-left: 5%;
+    }
+
+    .url-input {
+        max-width: 90%;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .btn-encurtar {
+        font-size: 14px;
+        height: 30px;
+    }
+
+    .link_anterior {
+        font-size: 14px;
+    }
+
+    .descricao_encurtador {
+        font-size: 16px;
+        word-wrap: break-word;
+        max-width: 95%;
+    }
+
+    .separador {
+        max-width: 90%;
+    }
+}
+
+.img_home {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .img_home {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 40%;
+        height: calc(100vh - 60px);
+        object-fit: cover;
+    }
+
+    .container {
+        margin-top: 140px;
+    }
+}
+
+.btn-encurtar {
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.btn-encurtar:hover {
+    background-color: #007bff;
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+footer a:active {
+    color: #ff0000;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.link_anterior {
+    color: #bbbdc9;
+    margin-top: -10px;
+}
+
+.descricao_encurtador {
+    color: #504E4E;
+}
+
+.separador {
+    width: 100%;
+    max-width: 420px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.ml-custom {
+    margin-left: 10px;
+    align-self: flex-start;
+}
+
+.link-encurtado {
+    text-decoration: none;
+}
