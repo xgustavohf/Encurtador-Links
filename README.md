@@ -10,3 +10,5 @@ Os usuários podem facilmente encurtar seus URLs inserindo-os em um formulário 
 Além disso, a aplicação apresenta uma página de resultado para exibir o link encurtado, permitindo que os usuários copiem facilmente para a área de transferência. Caso desejem, os usuários podem visualizar o link anterior encurtado.
 
 O código-fonte do projeto está disponível no GitHub, proporcionando uma base sólida para expansões futuras e contribuições da comunidade. Com a combinação de tecnologias modernas, boas práticas de desenvolvimento e uma abordagem centrada no usuário, o **GHF.PRO - Encurtador de Links** é uma solução eficaz e acessível para simplificar o compartilhamento de URLs.
+
+![image](https://github.com/xgustavohf/Encurtador-Links/assets/56177561/fb6daec5-27a8-43c5-8da0-efa8c4cc7fc1)
