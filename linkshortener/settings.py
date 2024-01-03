@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'linkshortener.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'encurtador_db_lqux',
+        'NAME': 'encurtador_links_db',
         'USER': 'admin',
-        'PASSWORD': '6NMFvtCmFZBCU9TXfNfztpFi8m2IegoY',
-        'HOST': 'dpg-cmac3jed3nmc73cohljg-a.oregon-postgres.render.com',
+        'PASSWORD': 'llHN8lYNZcnlNGPX1pFnXbcQDQsofpXT',
+        'HOST': 'dpg-cmaco6ed3nmc73conhlg-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }
