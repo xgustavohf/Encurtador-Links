@@ -1,0 +1,5 @@
+services:
+  - name: web
+    env: python
+    build_command: python manage.py collectstatic --noinput
+    start_command: gunicorn linkshortener.wsgi:application --bind 0.0.0.0:$PORT
