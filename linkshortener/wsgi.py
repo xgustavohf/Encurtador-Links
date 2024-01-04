@@ -17,3 +17,6 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "linkshortener.settings")
 application = get_wsgi_application()
 application = WhiteNoise(application, root='/shortener/static/admin/')
 
+#Abaixo conf. VERCEL
+
+app = application
