@@ -2,3 +2,4 @@ env
 linkshortener/__pycache__/
 shortener/__pycache__/
 shortener/migrations/__pycache__/
+vercel.json/

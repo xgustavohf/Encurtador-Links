@@ -19,4 +19,4 @@ application = WhiteNoise(application, root='/shortener/static/admin/')
 
 #Abaixo conf. VERCEL
 
-app = application
+#app = application #
